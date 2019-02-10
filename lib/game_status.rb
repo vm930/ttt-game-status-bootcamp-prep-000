@@ -12,6 +12,8 @@ WIN_COMBINATIONS = [
   ]
 
 def won(board) #should return false/nil if theres no win combo
+
+
   
   for each win_combination in WIN_COMBINATIONS
   win_index_1 = WIN_COMBINATIONS[0]
