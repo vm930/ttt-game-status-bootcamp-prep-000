@@ -39,7 +39,7 @@ end
 def over?(board)
   #if the board has been won, is a draw, or is full.
   board.all? do
-  |position| won?(board) && draw?(board) || full?(board) && won?(board)
+  |position| won?(board) && draw?(board) || full?(board)
   end 
 end 
 
