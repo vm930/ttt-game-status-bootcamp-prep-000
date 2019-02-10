@@ -22,6 +22,11 @@ def won(board) #should return false/nil if theres no win combo
   postion_2 = board[win_index_2]
   postion_3 = board[win_index_3]
   
+  if postion_1 == "X" && postion_2 == "X" && postion_3 == "X"
+    return win_combination
+  else 
+    false
+  end 
 end 
 
 def position_taken?(board, index)
