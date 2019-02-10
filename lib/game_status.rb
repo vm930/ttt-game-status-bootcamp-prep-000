@@ -36,7 +36,7 @@ def draw?(board)
 end 
 
 def over?(board)
-  
+  #if the board has been won, is a draw, or is full. 
 end 
 
 def winner(board)
