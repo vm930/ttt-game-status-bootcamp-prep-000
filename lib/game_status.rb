@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
 def won(board)
   
   board.each do |position| 
-    if !(position_taken?(position))
+    if !(position_taken?(board,board[]))
       return 
     end 
 
