@@ -24,7 +24,9 @@ def won?(board)
 end 
 
 def full?(board)
-  
+  board.any? do 
+    |position|
+  end 
 end 
 
 def draw?(board)
