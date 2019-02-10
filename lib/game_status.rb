@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
   [2,4,6]#diagonals
   ]
 
-def won(WIN_COMBINATIONS)
+def won(board)
 end 
 
 def position_taken?(board, index)
