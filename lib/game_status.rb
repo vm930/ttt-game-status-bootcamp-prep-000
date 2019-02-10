@@ -32,7 +32,7 @@ end
 def draw?(board)
   board.all? do 
     #if the board has not been won but is full, 
-    |position| !(won?(board)) && position == "X" || position == "O"
+    |position| !(won?(board)) && full?(board)
   end 
 end 
 
