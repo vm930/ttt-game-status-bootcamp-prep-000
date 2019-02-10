@@ -25,7 +25,7 @@ end
 
 def full?(board)
   board.any? do 
-    |position|
+    |position| if position == "X" ||"O"
   end 
 end 
 
