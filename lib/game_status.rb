@@ -7,6 +7,8 @@ WIN_COMBINATIONS = [
   [0,3,6], #1st vertical
   [1,4,7],#vertical
   [2,5,8],#vertical
+  [0,4,8],#diano
+  [2,4,6]
   ]
 
 def won
