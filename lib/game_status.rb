@@ -41,6 +41,6 @@ def over?(board)
 end 
 
 def winner(board)
-  #
+  #return the token, "X" or "O" that has won the game given a winning board.
 end 
       
