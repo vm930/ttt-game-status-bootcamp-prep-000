@@ -45,8 +45,11 @@ end
 
 def winner(board)
   #return the token, "X" or "O" that has won the game given a winning board.
-  board.all? do 
-    |position| over?(board) && position == "X"
+  WIN_COMBINATIONS.find do 
+    |combo| board[combo[0]] == board[combo[1]]&& board[combo[1]] == board[combo[2]] && position_taken?(board,combo[0])
+    end 
+  # board.all? do 
+  #   |position| over?(board) && position == "X"
   end 
 end 
       
