@@ -31,7 +31,7 @@ end
 
 def draw?(board)
   board.all? do 
-    |position| !(won?(board)) &&
+    |position| !(won?(board)) && position_taken(board,position)
   end 
 end 
 
