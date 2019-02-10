@@ -4,3 +4,17 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
+
+WIN_COMBINATIONS = [
+  ["X","X","X"," "," "," "," "," "," "],
+  [" "," "," ","X","X","X"," "," "," "],
+  [" "," "," "," "," "," ","X","X","X"],
+  [" "," "," "," "," "," "," "," "," "],
+  [" "," "," "," "," "," "," "," "," "],
+  [" "," "," "," "," "," "," "," "," "],
+  
+  ]
+
+def won (board)
+  
+end 
