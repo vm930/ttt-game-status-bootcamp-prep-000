@@ -1,4 +1,7 @@
 # Helper Method
+def won
+end 
+
 def position_taken?(board, index)
   !(board[index].nil? || board[index] == " ")
 end
@@ -6,12 +9,7 @@ end
 # Define your WIN_COMBINATIONS constant
 
 WIN_COMBINATIONS = [
-  ["X","X","X"," "," "," "," "," "," "],
-  [" "," "," ","X","X","X"," "," "," "],
-  [" "," "," "," "," "," ","X","X","X"],
-  [" "," "," "," "," "," "," "," "," "],
-  [" "," "," "," "," "," "," "," "," "],
-  [" "," "," "," "," "," "," "," "," "],
+  [0,1,2],#top row 
   
   ]
 
