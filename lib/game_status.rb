@@ -46,7 +46,11 @@ end
 def winner(board)
   #return the token, "X" or "O" that has won the game given a winning board.
   board.all? do 
-    |position| over?(board) && 
+    |position| over?(board) && position == "X"
+    return "X"
+  else 
+    return "O"
+  end 
   end 
 end 
       
