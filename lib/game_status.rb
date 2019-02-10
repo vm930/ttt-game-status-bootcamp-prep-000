@@ -23,19 +23,3 @@ def won(board)
     end 
 end 
       
-  
-#   for each win_combination in WIN_COMBINATIONS
-#   win_index_1 = WIN_COMBINATIONS[0]
-#   win_index_2 = WIN_COMBINATIONS[1]
-#   win_index_3 = WIN_COMBINATIONS[2]
-  
-#   postion_1 = board[win_index_1]
-#   postion_2 = board[win_index_2]
-#   postion_3 = board[win_index_3]
-  
-  
-#   if postion_1 == "X" && postion_2 == "X" && postion_3 == "X"
-#     return win_combination
-#   else 
-#     false
-#   end 
