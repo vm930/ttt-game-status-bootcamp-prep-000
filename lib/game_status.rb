@@ -19,7 +19,7 @@ WIN_COMBINATIONS = [
 
 def won(board)
   WIN_COMBINATIONS.find do 
-    |combo| board[combo[0]] == board[combo[1]]&& board[combo[1]] == board[combo[2]] && position_taken?()
+    |combo| board[combo[0]] == board[combo[1]]&& board[combo[1]] == board[combo[2]] && position_taken?(board,combo[])
     
     end 
 end 
