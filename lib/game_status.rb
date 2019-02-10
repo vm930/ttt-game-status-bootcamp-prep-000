@@ -45,8 +45,8 @@ end
 
 def winner(board)
   #return the token, "X" or "O" that has won the game given a winning board.
-  board.frist do 
-    |position| won?(board)
-  end 
+ if winning_combo = won?(board)
+    board[winning_combo.first]
+  end
 end 
       
