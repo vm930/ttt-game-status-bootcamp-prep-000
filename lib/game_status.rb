@@ -18,26 +18,38 @@ WIN_COMBINATIONS = [
   ]
 
 def won(board)
+  win_combination = []
   
   board.each do |position| 
-    if !(position_taken?(board,board[]))
-      return 
+    if !(position_taken?(board,board.index(position))
+      win_combination << board.index(position)
     end 
-
+    end 
+   
+   WIN_COMBINATIONS.each do 
+     |win_array| if win_array == win_combination
+     return true
+   else 
+     false 
+   end 
+ end
+   
+   end 
+      
   
-  for each win_combination in WIN_COMBINATIONS
-  win_index_1 = WIN_COMBINATIONS[0]
-  win_index_2 = WIN_COMBINATIONS[1]
-  win_index_3 = WIN_COMBINATIONS[2]
+#   for each win_combination in WIN_COMBINATIONS
+#   win_index_1 = WIN_COMBINATIONS[0]
+#   win_index_2 = WIN_COMBINATIONS[1]
+#   win_index_3 = WIN_COMBINATIONS[2]
   
-  postion_1 = board[win_index_1]
-  postion_2 = board[win_index_2]
-  postion_3 = board[win_index_3]
+#   postion_1 = board[win_index_1]
+#   postion_2 = board[win_index_2]
+#   postion_3 = board[win_index_3]
   
   
-  if postion_1 == "X" && postion_2 == "X" && postion_3 == "X"
-    return win_combination
-  else 
-    false
-  end 
-end 
+#   if postion_1 == "X" && postion_2 == "X" && postion_3 == "X"
+#     return win_combination
+#   else 
+#     false
+#   end 
+# end 
