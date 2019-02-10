@@ -18,7 +18,10 @@ WIN_COMBINATIONS = [
   ]
 
 def won(board)
-  
+  WIN_COMBINATIONS.find do 
+    |combo| 
+    
+    end 
 end 
       
   
