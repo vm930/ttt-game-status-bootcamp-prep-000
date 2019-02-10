@@ -13,6 +13,7 @@ WIN_COMBINATIONS = [
 
 def won(board) #should return false/nil if theres no win combo
   
+  board.each 
 
   
   for each win_combination in WIN_COMBINATIONS
